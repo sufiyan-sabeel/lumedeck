@@ -207,14 +207,30 @@ Add this line:
 - The Proot container shares the display with the native Termux desktop. Apps installed in Proot render on the same screen.
 - GPU acceleration works best on Adreno GPUs (Qualcomm Snapdragon phones). Other GPUs fall back to software rendering.
 
-## Credits
+## Credits & Attribution
 
-Created by **Umaizsufiyan**
+**LumeDeck**
 
-- GitHub: <https://github.com/sufiyan-sabeel>
-- Instagram: <https://instagram.com/umaizsufiyan.78>
+Maintained and developed by Umaiz Sufiyan
 
-Based on DroidDesk by [orailnoor](https://youtube.com/@orailnoor).
+LumeDeck is a customized and rebranded derivative of DroidDesk, with its own project identity, branding, documentation, and subsequent modifications.
+
+- Project: LumeDeck
+- Developer and maintainer: Umaiz Sufiyan
+- GitHub: <https://github.com/sufiyan-sabeel/lumedeck>
+- Original upstream project: DroidDesk
+- Original author: orailnoor
+- License: GNU General Public License (GPL), subject to the applicable upstream license version and terms.
+
+### Original Project Acknowledgment
+
+LumeDeck is based on DroidDesk by orailnoor. We acknowledge the original author's work and preserve the applicable upstream copyright notices and license requirements.
+
+### Development Contributions
+
+Umaiz Sufiyan is responsible for the modifications, improvements, branding, documentation, release management, and other contributions made specifically to LumeDeck, as applicable to the actual project history.
+
+All original contributions remain subject to the project's applicable license. Original upstream contributions retain their respective authorship and copyright.
 
 ## License and third-party software
 
