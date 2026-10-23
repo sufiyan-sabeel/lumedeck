@@ -1,11 +1,11 @@
-# DroidDesk
+# Lumedroid
 
 Run a full Linux desktop on any Android phone. Not a terminal. Not an emulator. A complete desktop environment with direct kernel access -- VS Code, Blender, Metasploit, local AI, all of it.
 
 Connect your phone to a monitor and it becomes a Linux PC. Unplug it and your entire setup comes with you.
 
 > [!IMPORTANT]
-> DroidDesk is an independent GPL-3.0 open-source project that incorporates
+> Lumedroid is an independent GPL-3.0 open-source project that incorporates
 > modified Termux:X11 components. It is not affiliated with or endorsed by
 > Termux, Termux:X11, TUR, Canonical, or Ubuntu.
 >
@@ -38,9 +38,9 @@ The setup script installs a full desktop (XFCE4/LXQt/MATE/KDE) inside Termux usi
 
 The automatic menu sync scans what you install inside Proot and adds it directly to your desktop app menu. No need to enter the container every time.
 
-## DroidDesk App (Standalone)
+## Lumedroid App (Standalone)
 
-DroidDesk is also available as a standalone Android application that completely automates this process without requiring a separate Termux installation. It renders through an embedded Termux:X11 server running in its own Android process; the app does not use VNC.
+Lumedroid is also available as a standalone Android application that completely automates this process without requiring a separate Termux installation. It renders through an embedded Termux:X11 server running in its own Android process; the app does not use VNC.
 
 - **Rooted phones:** Run the Ubuntu filesystem through `chroot`.
 - **Non-rooted phones:** Run an app-private native Termux userspace and install desktop packages from the X11 and TUR repositories. PRoot is not used.
@@ -92,7 +92,7 @@ Install it on your phone. This is the display server that renders the desktop.
 Open Termux and run:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/orailnoor/DroidDesk/main/termux-linux-setup.sh -o setup.sh
+curl -sL https://raw.githubusercontent.com/sufiyan-sabeel/lumedeck/main/termux-linux-setup.sh -o setup.sh
 bash setup.sh
 ```
 
@@ -150,7 +150,7 @@ sudo apt install realvnc-vnc-viewer
 Copy `pi-launch_phone.sh` to your Pi:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/orailnoor/DroidDesk/main/pi-launch_phone.sh -o ~/pi-launch_phone.sh
+curl -sL https://raw.githubusercontent.com/sufiyan-sabeel/lumedeck/main/pi-launch_phone.sh -o ~/pi-launch_phone.sh
 chmod +x ~/pi-launch_phone.sh
 ```
 
@@ -218,7 +218,7 @@ Based on DroidDesk by [orailnoor](https://youtube.com/@orailnoor).
 
 ## License and third-party software
 
-DroidDesk is independent software licensed under
+Lumedroid is independent software licensed under
 [GNU GPL version 3 only](LICENSE). It is not affiliated with or endorsed by
 Termux, Termux:X11, TUR, Canonical, Ubuntu, or other upstream projects.
 
