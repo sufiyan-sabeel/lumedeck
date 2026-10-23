@@ -9,7 +9,7 @@ Connect your phone to a monitor and it becomes a Linux PC. Unplug it and your en
 > modified Termux:X11 components. It is not affiliated with or endorsed by
 > Termux, Termux:X11, TUR, Canonical, or Ubuntu.
 >
-> - **Source and licenses:** <https://github.com/orailnoor/DroidDesk>
+> - **Source and licenses:** <https://github.com/sufiyan-sabeel/lumedeck>
 > - **Termux:X11 upstream:** <https://github.com/termux/termux-x11>
 
 ## Video
@@ -209,7 +209,12 @@ Add this line:
 
 ## Credits
 
-Created by [orailnoor](https://youtube.com/@orailnoor)
+Created by **Umaizsufiyan**
+
+- GitHub: <https://github.com/sufiyan-sabeel>
+- Instagram: <https://instagram.com/umaizsufiyan.78>
+
+Based on DroidDesk by [orailnoor](https://youtube.com/@orailnoor).
 
 ## License and third-party software
 
