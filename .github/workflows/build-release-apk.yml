@@ -48,7 +48,7 @@ jobs:
 
       - name: Build release APK
         working-directory: app
-        run: flutter build apk --release
+        run: flutter build apk --release --target-platform android-arm64
 
       - name: Show build output
         run: ls -lh app/build/app/outputs/flutter-apk/
